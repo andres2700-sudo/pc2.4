@@ -38,7 +38,7 @@ call (["pip", "install", "-r" , "creativa_2/bookinfo/src/productpage/requirement
 
 #Creamos la variable del entorno
 
-os.environ ['GROUP NUMBER']="37" 
+os.environ ['GROUP NUMBER']="36" 
 num_grupo= str(os.environ.get ('GROUP NUMBER'))
 
 
