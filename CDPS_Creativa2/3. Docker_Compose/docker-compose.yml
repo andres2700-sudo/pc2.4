@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+ productpage:
+  image: sergiojb/12-productpage:microservice
+  container_name: 12-productpage
+  ports:
+   - "9080:9080"
+
+ details:
+  image: sergiojb/12-details
+  container_name: 12-details
+
+ reviews:
+  image: sergiojb/12-reviews:v1
+  container_name: 12-reviews
+
+ ratings:
+  image: sergiojb/12-ratings
+  container_name: 12-ratings
